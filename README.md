@@ -11,8 +11,10 @@ Hacemos un gráfico de dispersión para ver la forma de la curva.
 <img width="297" height="116" alt="image" src="https://github.com/user-attachments/assets/3f21421d-9936-473d-9ff7-8a4a3b458f8b" />
 donde X representa el período (año) y Y el PIB. De lo anterior es evidente que debe estimar dos parámetros (Beta1 y Beta2 ). ¿Tuvo algún problema en el proceso de estimación de parámetros? ¿A qué crees que se debe? 
 
-4. Transforme la base de datos previa dividiendo cada observación entre el valor máximo de la columna a la que pertenece. A este proceso se le denomina “Normalización”.
 Tuvimos problemas al tratar de estimar los parámetros por tanteo ya que se requiere de una normalización previa. Esto debido a que los valores del PIB pueden ser muy grandes comparados con los valores del año y eso distorsiona el cálculo exponencial del modelo logístico.
+
+4. Transforme la base de datos previa dividiendo cada observación entre el valor máximo de la columna a la que pertenece. A este proceso se le denomina “Normalización”.
+
 Normalizamos los datos, después ajustamos el modelo con curve fit y graficamos el modelo ajustado
 <img width="563" height="428" alt="image" src="https://github.com/user-attachments/assets/a5ceef10-e3c9-42fb-aaf8-3d05b8a1f469" />
 
