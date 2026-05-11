@@ -1,5 +1,5 @@
 # RegresionLinealSimple
-El objetivo de esta actividad es que efectuar un análisis de regresión que permita construir un modelo predictivo a una base de datos real de manera que genere pronósticos adecuados.
+El objetivo de esta actividad es efectuar un análisis de regresión que permita construir un modelo predictivo a una base de datos real de manera que genere pronósticos adecuados.
 
 1. Considere los valores históricos del Producto Interno Bruto (GDP) para México de acuerdo a los registros del banco mundial.
 La base de datos previa se encuentra contenida en el archivo de Excel “Mexico GDP.xlsx”
